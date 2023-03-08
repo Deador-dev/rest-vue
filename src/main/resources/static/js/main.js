@@ -70,7 +70,7 @@ Vue.component('message-row', {
         },
         del: function () {
             messageAPI.remove({id: this.message.id}).then(result => {
-                if(result.ok){
+                if (result.ok) {
                     this.messages.splice(this.messages.indexOf(this.message), 1)
                 }
             })
