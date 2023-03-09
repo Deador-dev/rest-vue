@@ -32,7 +32,6 @@ public class MessageController {
         return message;
     }
 
-
     @PostMapping()
     public Message createMessage(@RequestBody Message message) {
         return messageRepository.save(message);

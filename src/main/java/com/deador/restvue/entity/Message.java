@@ -2,6 +2,7 @@ package com.deador.restvue.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonView;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.*;
